@@ -8,12 +8,12 @@ import { LoadingScreen } from "@/components/loading-screen";
 import { LenisScroll } from "@/components/lenis-scroll";
 
 export const metadata: Metadata = {
-  title: "Ankit | AI/ML Enthusiast and Python Developer",
-  description: "Premium futuristic portfolio for Ankit, an ambitious AI/ML enthusiast, Python developer, and future software engineer.",
-  keywords: ["Ankit", "AI ML Portfolio", "Python Developer", "Software Engineer", "Next.js Portfolio"],
+  title: "Ankit | AI/ML Developer and React.js Portfolio",
+  description: "React.js portfolio for Ankit, showcasing AI/ML projects, Python, data analysis, and model evaluation.",
+  keywords: ["Ankit", "AI ML Portfolio", "React.js Portfolio", "Python Developer", "Machine Learning"],
   openGraph: {
-    title: "Ankit | Future Software Engineer",
-    description: "A premium portfolio showcasing AI, Python, automation, and modern web engineering.",
+    title: "Ankit | AI/ML Developer",
+    description: "A portfolio showcasing machine learning, Python, data analysis, automation, and React.js interfaces.",
     type: "website"
   }
 };
@@ -27,9 +27,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <LoadingScreen />
           <CustomCursor />
           <div className="noise" />
-          <div className="blob blob-a" />
-          <div className="blob blob-b" />
-          <div className="blob blob-c" />
           <Navbar />
           <main>{children}</main>
           <Footer />

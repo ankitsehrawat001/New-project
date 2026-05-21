@@ -15,7 +15,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
     <section className="section pt-32">
       <div className="container-premium">
         <SectionHeader eyebrow={project.type} title={project.title} text={project.summary} />
-        <div className="relative mb-10 aspect-[16/8] overflow-hidden rounded-[2.5rem] border border-white/10 shadow-neon">
+        <div className="relative mb-10 aspect-[16/8] overflow-hidden rounded-lg border border-white/10 shadow-neon">
           <Image src={project.image} alt={project.title} fill className="object-cover" priority sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
         </div>

@@ -21,5 +21,5 @@ export function ButtonLink({ href, children, variant = "primary" }: { href: stri
 }
 
 export function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
-  return <div className={cn("glass scanline relative overflow-hidden rounded-[2rem] p-6", className)}>{children}</div>;
+  return <div className={cn("glass scanline relative overflow-hidden rounded-lg p-6", className)}>{children}</div>;
 }

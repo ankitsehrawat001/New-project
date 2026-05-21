@@ -5,7 +5,7 @@ export default function SkillsPage() {
   return (
     <section className="section pt-32">
       <div className="container-premium">
-        <SectionHeader eyebrow="Skills" title="A growing technical stack with product taste." text="Categorized capabilities across AI, frontend, backend, and the tools needed to ship." />
+        <SectionHeader eyebrow="Skills" title="A practical stack for AI/ML and React.js." text="Categorized capabilities across machine learning, frontend development, backend basics, and the tools needed to ship." />
         <div className="grid gap-6 md:grid-cols-2">
           {skills.map((group) => (
             <Card key={group.group}>

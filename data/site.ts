@@ -1,8 +1,8 @@
-import { BrainCircuit, Code2, Cpu, Database, Globe2, Sparkles, Workflow, Zap } from "lucide-react";
+import { BarChart3, BrainCircuit, Code2, Cpu, Database, Globe2, Sparkles, Workflow, Zap } from "lucide-react";
 
 export const profile = {
   name: "Ankit",
-  role: "AI/ML Enthusiast, Python Developer, Future Software Engineer",
+  role: "AI/ML Developer and React.js Portfolio Builder",
   email: "ankit.dev@example.com",
   github: "https://github.com/",
   linkedin: "https://www.linkedin.com/",
@@ -10,81 +10,81 @@ export const profile = {
 };
 
 export const stats = [
-  ["04+", "Flagship builds"],
-  ["12+", "Core technologies"],
-  ["100%", "Ambition locked"],
-  ["24/7", "Builder mindset"]
+  ["04", "AI-focused projects"],
+  ["15+", "Tools and libraries"],
+  ["03", "Model workflows"],
+  ["100%", "Learning mindset"]
 ];
 
 export const services = [
-  { icon: BrainCircuit, title: "AI Solutions", text: "Prototype intelligent systems, model-driven workflows, and applied ML experiences." },
-  { icon: Globe2, title: "Web App Development", text: "High-performance web apps with polished UI, strong architecture, and production hygiene." },
-  { icon: Workflow, title: "Automation Systems", text: "Python automations, data pipelines, workflow bots, and operational tooling." },
-  { icon: Sparkles, title: "Future Services", text: "Rapid experimentation across AI agents, SaaS MVPs, and immersive interfaces." }
+  { icon: BrainCircuit, title: "Machine Learning", text: "Build supervised ML pipelines with clear preprocessing, training, evaluation, and readable results." },
+  { icon: BarChart3, title: "Data Analysis", text: "Explore datasets, find patterns, create charts, and explain insights in simple product language." },
+  { icon: Globe2, title: "React Interfaces", text: "Create responsive React.js and Next.js interfaces that make AI projects easy to understand." },
+  { icon: Workflow, title: "Python Automation", text: "Write scripts and small tools for data cleaning, repetitive tasks, and workflow improvement." }
 ];
 
 export const skills = [
-  { group: "AI / ML", items: ["Python", "NumPy", "Pandas", "Scikit-learn", "Model Evaluation", "Prompt Engineering"] },
-  { group: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Responsive UX"] },
-  { group: "Backend", items: ["Node.js", "REST APIs", "Auth Flows", "Databases", "System Design", "Testing"] },
-  { group: "Tools", items: ["Git", "Linux", "VS Code", "Figma Thinking", "Deployment", "Automation"] }
+  { group: "AI / ML", items: ["Python", "NumPy", "Pandas", "Scikit-learn", "Matplotlib", "Model Evaluation", "Feature Engineering"] },
+  { group: "Frontend", items: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Responsive Design", "Framer Motion"] },
+  { group: "Backend", items: ["Node.js", "REST APIs", "Authentication Basics", "Databases", "Validation", "Testing"] },
+  { group: "Tools", items: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Deployment", "Prompt Engineering"] }
 ];
 
 export const projects = [
   {
+    slug: "student-performance-predictor",
+    title: "Student Performance Predictor",
+    type: "Machine Learning",
+    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1600&auto=format&fit=crop",
+    stack: ["Python", "Pandas", "Scikit-learn", "Regression", "Model Evaluation"],
+    summary: "A machine learning workflow that predicts student performance from study habits, attendance, and academic features.",
+    challenge: "Turn a raw dataset into a model that is explainable, measurable, and useful for early academic support.",
+    solution: "Cleaned the data, compared baseline models, measured error, and presented the most important factors clearly.",
+    outcome: "A practical AI/ML project that shows the full path from dataset to prediction and insight.",
+    href: "#"
+  },
+  {
+    slug: "ai-dashboard",
+    title: "AI Insight Dashboard",
+    type: "React.js / Data UI",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1600&auto=format&fit=crop",
+    stack: ["React.js", "Next.js", "Tailwind CSS", "Charts", "Data UX"],
+    summary: "A responsive dashboard concept for displaying model metrics, dataset summaries, and prediction outputs.",
+    challenge: "Make technical AI results easy to scan for users who need fast decisions instead of raw notebooks.",
+    solution: "Designed metric cards, model-status sections, visual hierarchy, and responsive layouts for analysis workflows.",
+    outcome: "A portfolio-ready interface that connects machine learning work with product presentation.",
+    href: "#"
+  },
+  {
+    slug: "sentiment-analysis",
+    title: "Sentiment Analysis Tool",
+    type: "Natural Language Processing",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600&auto=format&fit=crop",
+    stack: ["Python", "NLP", "Text Cleaning", "Classification", "Evaluation"],
+    summary: "A text classification prototype that identifies positive, neutral, and negative sentiment from user feedback.",
+    challenge: "Build an NLP workflow that handles noisy text and communicates confidence without overcomplication.",
+    solution: "Prepared text, trained a baseline classifier, reviewed predictions, and documented model behavior.",
+    outcome: "A clear NLP case study suitable for internships, interviews, and future product expansion.",
+    href: "#"
+  },
+  {
     slug: "atm-banking-system",
     title: "ATM Banking System",
-    type: "Python / Banking Logic",
+    type: "Python / OOP",
     image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1600&auto=format&fit=crop",
     stack: ["Python", "OOP", "CLI UX", "Validation", "Security Logic"],
-    summary: "A robust banking simulation with account workflows, transaction rules, balance checks, and polished terminal UX.",
-    challenge: "Design a banking workflow that feels reliable while keeping logic understandable and extensible.",
-    solution: "Structured core banking actions around clean state transitions, guarded inputs, and reusable account operations.",
-    outcome: "A credible Python foundation demonstrating software thinking, edge-case awareness, and product polish.",
-    href: "#"
-  },
-  {
-    slug: "airbnb-clone",
-    title: "Airbnb Clone",
-    type: "Full-Stack Marketplace UI",
-    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1600&auto=format&fit=crop",
-    stack: ["Next.js", "React", "Tailwind", "Search UX", "Cards", "Responsive UI"],
-    summary: "A premium booking interface with property discovery, clean filters, and conversion-focused visual hierarchy.",
-    challenge: "Make a familiar marketplace pattern feel refined, fast, and trustworthy across mobile and desktop.",
-    solution: "Built crisp listing systems, glass search controls, responsive media cards, and strong interaction states.",
-    outcome: "A recruiter-friendly product surface showing UI taste, component thinking, and frontend execution.",
-    href: "#"
-  },
-  {
-    slug: "ai-project",
-    title: "AI Project",
-    type: "Machine Learning Prototype",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600&auto=format&fit=crop",
-    stack: ["Python", "ML", "Data", "Evaluation", "AI UX"],
-    summary: "An evolving AI build focused on practical intelligence, clean experimentation, and useful outcomes.",
-    challenge: "Convert ambition into a measurable AI workflow with clear user value.",
-    solution: "Define the dataset, baseline, evaluation loop, and a premium web presentation layer.",
-    outcome: "A strong placeholder track ready for the next serious AI milestone.",
-    href: "#"
-  },
-  {
-    slug: "future-lab",
-    title: "Future Lab",
-    type: "Research / Upcoming",
-    image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=1600&auto=format&fit=crop",
-    stack: ["Agents", "Automation", "SaaS", "R&D"],
-    summary: "A future-facing playground for AI agents, automation products, and ambitious software experiments.",
-    challenge: "Keep a flexible stage for upcoming work without making the portfolio feel unfinished.",
-    solution: "Present the lab as a deliberate research track with clear technical directions.",
-    outcome: "A premium roadmap section that signals momentum and long-term seriousness.",
+    summary: "A banking simulation with account workflows, transaction rules, balance checks, and clean terminal interaction.",
+    challenge: "Design reliable account actions while keeping the logic readable and easy to extend.",
+    solution: "Structured banking operations around reusable functions, input guards, and clear state changes.",
+    outcome: "A strong Python foundation project that demonstrates programming fundamentals and edge-case thinking.",
     href: "#"
   }
 ];
 
 export const timeline = [
-  ["2024", "Built core Python foundations through banking logic, structured problem solving, and CLI systems."],
-  ["2025", "Expanded into modern web apps, premium interfaces, and full-stack product thinking."],
-  ["2026", "Focused on AI/ML, automation, production-ready portfolios, and startup-grade execution."]
+  ["2024", "Built Python fundamentals with CLI programs, OOP practice, and structured problem solving."],
+  ["2025", "Moved into React.js, Next.js, responsive portfolio work, and practical data analysis."],
+  ["2026", "Focused on AI/ML projects, model evaluation, automation, and production-ready presentation."]
 ];
 
 export const certifications = [
@@ -96,15 +96,15 @@ export const certifications = [
 ];
 
 export const testimonials = [
-  ["Sharp execution and a rare hunger to improve every detail.", "Project Mentor"],
-  ["Ankit brings discipline, curiosity, and a serious builder mindset.", "Peer Developer"],
-  ["The work feels modern, focused, and ready for real-world pressure.", "Technical Reviewer"]
+  ["Clear learner with strong consistency and improving technical judgment.", "Project Mentor"],
+  ["Ankit connects Python logic with practical user-facing presentation.", "Peer Developer"],
+  ["The portfolio communicates AI/ML growth with focused execution.", "Technical Reviewer"]
 ];
 
 export const posts = [
-  ["Building Premium Developer Portfolios", "How motion, clarity, and proof create recruiter trust."],
-  ["Python as a Software Engineering Foundation", "Why fundamentals matter before chasing complexity."],
-  ["AI Projects That Actually Communicate Value", "Turning experiments into narratives that employers understand."]
+  ["How I Approach an ML Project", "From dataset cleaning to model evaluation and honest results."],
+  ["React for AI/ML Portfolios", "Why project presentation matters as much as the notebook."],
+  ["Python as an AI Foundation", "Building fundamentals before moving into advanced systems."]
 ];
 
 export const techIcons = [Code2, Cpu, Database, Zap];

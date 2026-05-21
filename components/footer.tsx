@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container-premium grid gap-8 lg:grid-cols-[1.3fr_.7fr_.7fr]">
         <div>
           <p className="font-display text-4xl font-bold text-gradient">Build the future, beautifully.</p>
-          <p className="mt-4 max-w-xl text-[color:var(--muted)]">Premium portfolio for AI, Python, software engineering, and ambitious product thinking.</p>
+          <p className="mt-4 max-w-xl text-[color:var(--muted)]">React.js portfolio for AI/ML projects, Python, data analysis, and practical software thinking.</p>
         </div>
         <div className="grid gap-3 text-sm text-[color:var(--muted)]">
           {["About", "Projects", "Services", "Resume"].map((item) => <Link key={item} href={`/${item.toLowerCase()}`} className="hover:text-[color:var(--fg)]">{item}</Link>)}

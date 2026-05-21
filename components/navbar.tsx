@@ -15,7 +15,7 @@ export function Navbar() {
   return (
     <header className="fixed left-0 right-0 top-4 z-50">
       <nav className="container-premium glass flex h-16 items-center justify-between rounded-full px-4">
-        <Link href="/" className="font-display text-lg font-bold text-gradient">Ankit</Link>
+        <Link href="/" className="font-display text-lg font-bold text-gradient">Ankit jaat</Link>
         <div className="hidden items-center gap-1 lg:flex">
           {links.map((link) => {
             const href = `/${link.toLowerCase()}`;
@@ -28,8 +28,8 @@ export function Navbar() {
         </div>
       </nav>
       {open && (
-        <div className="container-premium mt-3 rounded-3xl glass p-4 lg:hidden">
-          {links.map((link) => <Link onClick={() => setOpen(false)} className="block rounded-2xl px-4 py-3 text-sm" key={link} href={`/${link.toLowerCase()}`}>{link}</Link>)}
+        <div className="container-premium mt-3 rounded-lg glass p-4 lg:hidden">
+          {links.map((link) => <Link onClick={() => setOpen(false)} className="block rounded-lg px-4 py-3 text-sm" key={link} href={`/${link.toLowerCase()}`}>{link}</Link>)}
         </div>
       )}
     </header>
